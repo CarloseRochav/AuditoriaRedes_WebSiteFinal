@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+//Este archivo es como un index / main de un programa : aqui referenciamos las pages e importamos componentes
+import React from 'react'
+import Home from './pages/Home' //IMportante importar comopnente e invocarlo en el return
+import About from './pages/about' //IMportante importar comopnente e invocarlo en el return
+import Info from './pages/info' //IMportante importar comopnente e invocarlo en el return
+import holaVecino from './pages/holaMundo';
+import article from './pages/Article';
+
+import { BrowserRouter as Router,Route } from 'react-router-dom';//Enrutamiento de paginas en React
 import './App.css';
+
+//Componets
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Router>
+     <NavBar/>
+    <div className="max-w-screen-md mx-auto pt-20">
+    <Route exact path='/' component={Home}/>{/*Asi podemos asociar un componen a una ruta */}
+    <Route exact path='/hola-mundo' component={holaVecino}/>
+    <Route exact path='/about' component={About}/>
+    <Route exact path='/info' component={Info}/>
+    {/**Aqui crearemos una ruta con params ; paso de parametros */}
+    <Route exact path='/article/:name' component={article}/>
+
     </div>
+    </Router>   
   );
 }
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css'; //NO requerido
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './styles/tailwind.css'; //Very important for see the style in this view
 
 ReactDOM.render(
   <React.StrictMode>
