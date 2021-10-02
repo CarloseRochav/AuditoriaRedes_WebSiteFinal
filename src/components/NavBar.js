@@ -26,6 +26,11 @@ function NavBar() {
                             holaMundo
                         </Link>
                     </li>
+                    <li className="inline-block pt-4 pb-4">
+                        <Link to="/articles-list" className="pl-6 pr-8">
+                            Articles
+                        </Link>
+                    </li>
                 </ul>
 
             </nav>

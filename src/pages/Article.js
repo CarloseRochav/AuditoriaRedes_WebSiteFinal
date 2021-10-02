@@ -7,7 +7,7 @@ function Article({match}) { /*match ; Puede realizar acciones cuando se hace mat
 
     const name = match.params.name;//Guardar valor del param en una constante
     const article = articleContent.find((article)=>article.name===name);//Buscar que exista el name dentro de la proedad del arreglo y guardarlo en una variable
-    const saludo ='Hola amigos del palacio'
+    
 
     if(!article)return <h1 className='sm:text-4xl text-2xl font-bold text-gary-900'>{'This article don´t exist'}</h1>//Condicion que indica que no se encontro el valor
     //Si solo vas a retornar un elemento no es necesario encerrarlo en un dic o react.fragment
