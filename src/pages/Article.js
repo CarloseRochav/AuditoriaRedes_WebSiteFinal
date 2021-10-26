@@ -16,18 +16,30 @@ function Article({match}) { /*match ; Puede realizar acciones cuando se hace mat
     return (      
         <React.Fragment>
 
-        <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-900"> 
+        <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-50"> 
         {article.name}{/**EN JSX Usamos curly-braces para referencias valores strings que se usan en 
          * javascript, se referencias los valores entre curly braces
          */}
         </h1>  
 
-        {article.content.map((paragraph,index)=>(
-            <p className="mx-auto leading-relaxed text-base mb-4" key={index}>
-                {paragraph}
+            {/* {article.content.map((paragraph,index)=>(
+                <p className="mx-auto leading-relaxed text-base mb-4" key={index}>
+                    {paragraph}
+                </p>
+            
+            ))} */}        
+        
+            <p className="mx-auto leading-relaxed text-base mb-4 text-gray-50">
+                <ul>
+                <li><b> Modelo :</b> {article.content.Modelo}</li>
+                <li><b> Sistema Operativo :</b> {article.content.SO}</li>
+                <li><b> Memoria RAM :</b> {article.content.RAM}</li>
+                <li><b> Almacenamiento :</b> {article.content.Almacenamiento}</li>
+                <li><b> Procesador :</b> {article.content.Procesador}</li>                
+                </ul>
             </p>
         
-        ))}
+        
         </React.Fragment>
     )
 }

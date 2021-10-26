@@ -15,6 +15,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
+    <div className="bg-indigo-900">
    <Router>
      <NavBar/>
     <div className="max-w-screen-md mx-auto pt-20">
@@ -25,9 +26,9 @@ function App() {
     <Route exact path='/articles-list' component={ArticlesList}/>
     {/**Aqui crearemos una ruta con params ; paso de parametros */}
     <Route exact path='/article/:name' component={article}/>
-
     </div>
     </Router>   
+    </div>
   );
 }
 

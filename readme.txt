@@ -30,5 +30,17 @@
  --Habilitar Ruta mediante paso de parametros; uso de params
  --Creacion de un arreglo de objetos ; representaran a articulos y se invocaran en articles 
 
+ 5th SECTION
+ 
+ --Crearemos un nuevo archivo ArticlesList.js donde haremos una lista donde al dar click, Nos
+ llevara al contenido del articulo seleccionado
+ --en el objeto creado anteriormente agregamos una propiedad llamada thumbnail y tendre la ruta de la imagen referenciada
+
+
+ 10th SECTION ; Making article list as reusable component
+ 
+
+
+
 
 
