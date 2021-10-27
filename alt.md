@@ -14,6 +14,8 @@ para hacer deploy
 
 "build": "run-s build:css react-scripts:build",
 
+"start": "run-p watch:css react-scripts:start",
+
 
 //My build
 
