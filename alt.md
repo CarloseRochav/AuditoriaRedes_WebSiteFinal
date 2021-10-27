@@ -14,7 +14,7 @@ para hacer deploy
 
 "build": "run-s build:css react-scripts:build",
 
-"start": "run-p watch:css react-scripts:start",
+"start": "run-p watch:css react-scripts start",
 
 
 //My build
@@ -23,4 +23,6 @@ para hacer deploy
 
 para hacer deploy
 
- "start": "run-p watch:css react-scripts:start",  -- >>   "start": "react-scripts:start",
+ "start": "run-p watch:css react-scripts:start",  -- >>   "start": "react-scripts start",
+
+ "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
