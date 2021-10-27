@@ -20,3 +20,7 @@ para hacer deploy
 //My build
 
 "build": "tailwindcss build src/styles/index.css -c ./tailwind.config.js -o src/styles/tailwind.css",
+
+para hacer deploy
+
+ "start": "run-p watch:css react-scripts:start",  -- >>   "start": "react-scripts:start",
