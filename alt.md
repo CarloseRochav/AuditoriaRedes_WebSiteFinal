@@ -13,3 +13,8 @@ para hacer deploy
 //EN desarrollo
 
 "build": "run-s build:css react-scripts:build",
+
+
+//My build
+
+"build": "tailwindcss build src/styles/index.css -c ./tailwind.config.js -o src/styles/tailwind.css",
