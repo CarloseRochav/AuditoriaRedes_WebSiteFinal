@@ -3,9 +3,9 @@ import React from 'react'
 function Home() {
     return (
         <div className="mb-20">
-            <h1 className="sm:text-4xl text-2xl font-bold mt-6 text-gray-900">Super </h1>{/*Style from taildwindcss*/}
-            <h1 className="sm:text-4xl text-2xl font-bold mt-6 text-gray-900">Boletos </h1>{/*Style from taildwindcss*/}
-            <p className="mx-auto leading-relaxed text-base mb-4">
+            <h1 className="sm:text-4xl text-2xl font-extrabold mt-2 text-gray-900">Super </h1>{/*Style from taildwindcss*/}
+            <h1 className="sm:text-4xl text-2xl font-bold mt-2 text-gray-900">Boletos </h1>{/*Style from taildwindcss*/}
+            <p className="mx-auto leading-relaxed text-base mb-4 mt-4">
                Equipo de auditoria 
             </p>
             
