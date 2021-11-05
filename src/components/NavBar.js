@@ -3,9 +3,15 @@ import { Link } from 'react-router-dom'//Importante importar este componente par
 function NavBar() {
     return (
         <div>
-            <nav className="border-b-4 border-Indigo-700 text-center fixed top-0 w-full bg-indigo-900
+            <nav className="border-b-4 border-Indigo-700 text-center fixed top-0 w-full bg-gray-900
             font-bold text-lg text-white">
-                <ul>                    
+                <ul>
+                    <li className="inline-block pt-4 pb-4">
+                        <Link to="/" className="pl-6 pr-8">
+                            Home
+                        </Link>
+                    </li>                    
+
                     <li className="inline-block pt-4 pb-4">
                         <Link to="/info" className="pl-6 pr-8">
                             Info

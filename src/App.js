@@ -14,8 +14,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 
 function App() {
-  return (
-    <div className="bg-indigo-900">
+  return (    
    <Router>
      <NavBar/>
     <div className="max-w-screen-md mx-auto pt-20">
@@ -28,7 +27,7 @@ function App() {
     <Route exact path='/article/:name' component={article}/>
     </div>
     </Router>   
-    </div>
+    
   );
 }
 

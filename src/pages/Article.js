@@ -16,7 +16,7 @@ function Article({match}) { /*match ; Puede realizar acciones cuando se hace mat
     return (      
         <React.Fragment>
 
-        <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6 text-gray-50"> 
+        <h1 className="sm:text-4xl text-2xl font-bold mt-6 mb-6"> 
         {article.name}{/**EN JSX Usamos curly-braces para referencias valores strings que se usan en 
          * javascript, se referencias los valores entre curly braces
          */}
@@ -29,7 +29,7 @@ function Article({match}) { /*match ; Puede realizar acciones cuando se hace mat
             
             ))} */}        
         
-            <p className="mx-auto leading-relaxed text-base mb-4 text-gray-50">
+            <p className="mx-auto leading-relaxed text-base mb-4">
                 <ul>
                 <li><b> Modelo :</b> {article.content.Modelo}</li>
                 <li><b> Sistema Operativo :</b> {article.content.SO}</li>
