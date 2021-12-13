@@ -12,11 +12,11 @@ function NavBar() {
                         </Link>
                     </li>                    
 
-                    <li className="inline-block pt-4 pb-4">
+                    {/* <li className="inline-block pt-4 pb-4">
                         <Link to="/info" className="pl-6 pr-8">
                             Info
                         </Link>
-                    </li>
+                    </li> */}
 
                     <li className="inline-block pt-4 pb-4">
                         <Link to="/about" className="pl-6 pr-8">

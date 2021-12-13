@@ -10,7 +10,9 @@ function Home() {
             </p>
             
             <img className="lg:h-48 md:h-36 w-full object-center" 
-                    src={'/images/sb.png'} 
+                    //src={'/images/sb.png'} Local
+                    //src={'https://cdn.smehost.net/sonymusiccommx-mxprod/wp-content/uploads/2018/09/SUPER-BOLETOS-300x92.png'} Local
+                    src={'https://drive.google.com/uc?export=view&id=1FbBCKw6eArcLKKvpPrTNB_CrDV5qp-KX'} Local
                     alt="blog">
             </img>    
             

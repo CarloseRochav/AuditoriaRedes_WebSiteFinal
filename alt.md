@@ -25,4 +25,4 @@ para hacer deploy
 
  "start": "run-p watch:css react-scripts:start",  -- >>   "start": "react-scripts start",
 
- "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
+-- >> "node --max_old_space_size=2560 node_modules/.bin/react-scripts start", //EL CORRECTO PARA HEROKU
