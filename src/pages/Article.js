@@ -37,6 +37,7 @@ function Article({match}) { /*match ; Puede realizar acciones cuando se hace mat
                 <li><b> Almacenamiento :</b> {article.content.Almacenamiento}</li>
                 <li><b> Procesador :</b> {article.content.Procesador}</li>                
                 <li><img className="g:h-48 md:h-36 object-center" src='https://drive.google.com/uc?export=view&id=1bP2Mhqagrb7LYCYQdq5mgmMaWIgSlkqO'></img></li>                
+                <li><b> Procesador :</b> {article.Estado}</li>                
                 </ul>
             </p>
             

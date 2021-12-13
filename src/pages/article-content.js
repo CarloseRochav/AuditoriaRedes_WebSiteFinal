@@ -12,7 +12,9 @@ const articles =[
                 RAM:'4 GB',
                 Almacenamiento:'450 HDD',
                 Procesador:'Core i5 - 3470 3.20 GHZ',
-            },       
+            },
+            
+        Estado:" Funcionando"
     },
     {
         name:"PC-2",
@@ -25,6 +27,7 @@ const articles =[
             Almacenamiento:'450 HDD',
             Procesador:'Core i5 - 3470 3.20 GHZ',
         },       
+        Estado:" Funcionando"
     },
     {
         name:"PC-3",
@@ -37,6 +40,7 @@ const articles =[
             Almacenamiento:'450 HDD',
             Procesador:'Core i5 - 3470 3.20 GHZ',
         },       
+        Estado:" Funcionando"
     },
 ];
 
