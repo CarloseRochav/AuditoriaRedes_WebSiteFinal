@@ -17,7 +17,7 @@
     "build:css": "postcss src/styles/index.css -o src/styles/tailwind.css",
     "watch:css": "postcss src/styles/index.css -o src/styles/tailwind.css --watch",
     "react-scripts:start": " sleep 5 && react-scripts start",
-    "start": "run-p watch:css react-scripts:start",
+    "start": "react-scripts:start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "tailwindcss build src/styles/index.css -c ./tailwind.config.js -o src/styles/tailwind.css",    
